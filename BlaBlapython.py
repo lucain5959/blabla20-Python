@@ -63,3 +63,4 @@ nonce = b'651088076d2f695d'
 plaintext = b'testing!'
 ciphertext = blabla20_encrypt(key, nonce, plaintext)
 print (ciphertext)
+#NOTE! Decryption is the same as encryption, provide ciphertext instead of the plaintext to the blabla20_encrypt function

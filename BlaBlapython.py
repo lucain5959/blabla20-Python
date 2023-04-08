@@ -24,7 +24,6 @@ def crypto_stream_blabla20_update(st):
     for i in range(16):
         ks[i] += st[i]
     st[13] += 1
-    st[14] = 0 if st[14] == 0xffffffffffffffff else st[14]
     
     #State is transformed using rounds from blake
 def crypto_stream_blabla20_rounds(st):
